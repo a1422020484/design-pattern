@@ -7,6 +7,10 @@ public class Client {
 		ManBuilder mb = new ManBuilder();
 		Person p = mb.buildPerson();
 		System.out.println(p.getBody()+","+p.getFoot()+","+p.getHead());
+		
+		WomanBuilder wb = new WomanBuilder();
+		Person wp = wb.buildPerson();
+		System.out.println(wp.getBody()+","+wp.getFoot()+","+wp.getHead());
 	}
 
 }
