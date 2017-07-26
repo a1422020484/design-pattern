@@ -9,17 +9,17 @@ public class WomanPerson extends BuilderModel {
 	}
 
 	@Override
-	void getHead() {
+	void setHead() {
 		person.setHead("woman is head");
 	}
 
 	@Override
-	void getFood() {
+	void setFood() {
 		person.setFoot("woman's food");
 	}
 
 	@Override
-	void getBody() {
+	void setBody() {
 		person.setBody("woman's body");
 	}
 

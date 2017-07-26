@@ -9,17 +9,17 @@ public class Foreign extends BuilderModel {
 	}
 	
 	@Override
-	void getHead() {
+	void setHead() {
 		person.setHead("foreign is head");
 	}
 
 	@Override
-	void getFood() {
+	void setFood() {
 		person.setFoot("foreign is food");
 	}
 
 	@Override
-	void getBody() {
+	void setBody() {
 		person.setBody("foreign is body");
 	}
 
@@ -28,4 +28,5 @@ public class Foreign extends BuilderModel {
 		return person;
 	}
 
+	
 }
