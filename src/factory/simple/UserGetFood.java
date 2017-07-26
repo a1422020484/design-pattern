@@ -1,8 +1,12 @@
 package factory.simple;
 
+/**
+ * @author Administrator
+ * 
+ */
 public class UserGetFood {
 
-	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		FoodFactory ff = new FoodFactory();
 		Food food2 = ff.createFood("factory.simple.Orange");
