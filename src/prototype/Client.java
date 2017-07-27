@@ -2,6 +2,10 @@ package prototype;
 
 import java.util.ArrayList;
 
+/**
+ * @author Administrator
+ *	 原型模式
+ */
 class Prototype implements Cloneable {
 	protected ArrayList<String> list = new ArrayList<String>();
 
