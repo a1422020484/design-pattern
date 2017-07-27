@@ -2,7 +2,7 @@ package factory.simple;
 
 /**
  * @author Administrator
- * 
+ * 核心将类的实现与调用分离
  */
 public class UserGetFood {
 
