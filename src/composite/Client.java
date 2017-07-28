@@ -2,6 +2,7 @@ package composite;
 
 /**
  * @author Administrator 组合模式
+ * 主要用于树形结构和文件夹形式
  */
 public class Client {
 	public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class Client {
 		
 		ConcreteCompany comp = new ConcreteCompany("上海华东分公司");
 		comp.add(new HRDepartment("华东人力资源"));
-		comp.add(new FinanceDepartment("总公司财务"));
+		comp.add(new FinanceDepartment("华东财务"));
 		root.add(comp);
 		
 		ConcreteCompany comp1 = new ConcreteCompany("南京公司");
