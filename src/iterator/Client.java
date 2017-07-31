@@ -8,6 +8,14 @@ package iterator;
  */
 public class Client {
 	public static void main(String[] args) {
-
+		Aggregate aggregate = new ConcreteAggregate();
+		aggregate.add("yang");
+		aggregate.add("liu");
+		aggregate.add("famg");
+		InteratorMy interatorMy = aggregate.createIterator();
+		System.out.println(interatorMy.first());
+		while (interatorMy.hasNext()) {
+			System.out.println(interatorMy.next());
+		}
 	}
 }

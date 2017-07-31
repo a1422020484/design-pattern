@@ -1,37 +1,42 @@
 package iterator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ConcreteIterator extends InteratorMy {
 
-	private ConcreteAggregate[] concreteAggregate;
+	private List<Object> list = new ArrayList<Object>();
 	private int current = 0;
 
-	public ConcreteIterator(ConcreteAggregate[] concreteAggregate) {
-		this.concreteAggregate = concreteAggregate;
+	public ConcreteIterator(List<Object> list) {
+		this.list = list;
 	}
 
 	@Override
-	public Object First() {
-		return concreteAggregate[0];
+	public Object first() {
+		return list.get(0);
 	}
 
 	@Override
-	public Object Next() {
+	public Object next() {
 		Object object = null;
-		current++;
-		if (current < concreteAggregate.length) {
-			object = concreteAggregate[current];
+		if (current < list.size()) {
+			object = list.get(current++);
 		}
 		return object;
 	}
 
 	@Override
-	public boolean IsDone() {
-		return current >= concreteAggregate.length ? true : false;
+	public Object currentItem() {
+		return list.get(current);
 	}
 
 	@Override
-	public Object CurrentItem() {
-		return concreteAggregate[current];
+	public boolean hasNext() {
+		if (current == list.size()) {
+			return false;
+		}
+		return true;
 	}
 
 }

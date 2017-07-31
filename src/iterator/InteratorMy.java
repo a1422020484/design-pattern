@@ -1,11 +1,11 @@
 package iterator;
 
 public abstract class InteratorMy {
-	public abstract Object First();
+	public abstract Object first();
 
-	public abstract Object Next();
+	public abstract Object next();
 
-	public abstract boolean IsDone();
-
-	public abstract Object CurrentItem();
+	public abstract Object currentItem();
+	
+	public abstract boolean hasNext();
 }

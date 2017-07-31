@@ -9,7 +9,17 @@ public class ConcreteAggregate extends Aggregate {
 
 	@Override
 	public InteratorMy createIterator() {
-		return new ConcreteIterator(this);
+		return new ConcreteIterator(itemLists);
+	}
+
+	@Override
+	public void add(Object e) {
+		itemLists.add(e);
+	}
+
+	@Override
+	public void remove(Object e) {
+		itemLists.remove(e);
 	}
 
 }
