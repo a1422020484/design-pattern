@@ -1,5 +1,11 @@
 package command;
 
+
+/**
+ * @author Administrator
+ * 命令与执行分离
+ * 命令--invoker--执行
+ */
 public class Client {
 
 	public static void main(String[] args) {
