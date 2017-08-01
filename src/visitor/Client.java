@@ -3,6 +3,8 @@ package visitor;
 /**
  * @author Administrator
  * 局限性比较大
+ * 
+ * 访问者模式
  */
 public class Client {
 

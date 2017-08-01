@@ -4,6 +4,7 @@ public class Fish extends Change {
 
 	public Fish(TheGreatestSage sage) {
 		super(sage);
+		move();
 	}
 
 	@Override

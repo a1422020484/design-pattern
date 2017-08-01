@@ -5,6 +5,8 @@ package flyweight;
  * 享元模式  共享对象 
  * 核心是复用对象、共享工厂
  * 
+ * 共享工厂里包含了一个list，放存储好的对象
+ * 
  */
 public class Client {
 	

@@ -4,15 +4,11 @@ public class ConcreteDecoratorB extends Decorator {
 
 	public ConcreteDecoratorB(Component component) {
 		super(component);
+		sampleOperation();
 	}
 
 	@Override
 	public void sampleOperation() {
-		super.sampleOperation();
-		doOtherSomething();
-	}
-	
-	public void doOtherSomething(){
 		System.out.println("ConcreteDecoratorB");
 	}
 }

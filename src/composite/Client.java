@@ -3,6 +3,7 @@ package composite;
 /**
  * @author Administrator 组合模式
  * 主要用于树形结构和文件夹形式
+ * 将对象组合成树形结构以表示“部分-整体”的层次结构。composite 使得用户对单个对象和组合对象的使用具有一致性。
  */
 public class Client {
 	public static void main(String[] args) {

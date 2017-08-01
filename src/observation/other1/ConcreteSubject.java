@@ -4,7 +4,7 @@ public class ConcreteSubject extends Subject{
 
 	@Override
 	void doSomething() {
-		System.out.println("观察者时间发生");
+		System.out.println("观察者事件发生");
 		this.notifyObserver();
 	}
 

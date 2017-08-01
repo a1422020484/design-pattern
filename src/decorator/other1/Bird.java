@@ -4,6 +4,7 @@ public class Bird extends Change {
 	
 	public Bird(TheGreatestSage sage) {
 		super(sage);
+		move();
 	}
 
 	@Override
