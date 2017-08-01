@@ -2,7 +2,9 @@ package flyweight;
 
 /**
  * @author Administrator
- * 享元模式  共享对象
+ * 享元模式  共享对象 
+ * 核心是复用对象、共享工厂
+ * 
  */
 public class Client {
 	
