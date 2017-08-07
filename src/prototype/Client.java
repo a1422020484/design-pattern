@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 /**
  * @author Administrator
- *	 原型模式
+ *	 原型模式。
+ *核心：深克隆和浅克隆
  */
 class Prototype implements Cloneable {
 	protected ArrayList<String> list = new ArrayList<String>();

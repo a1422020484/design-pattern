@@ -3,7 +3,8 @@ package observation;
 import java.util.Vector;
 
 /**
- * @author Administrator 观察者模式
+ * @author Administrator 观察者模式，订阅—发布模式
+ * 监听者模式
  */
 abstract class Subject {
 	private Vector<Observer> obs = new Vector<Observer>();

@@ -10,8 +10,8 @@ public class ShallowClone {
 		Student s2 = (Student) s1.clone();
 		s1.setAge(30);
 		s1.setName("李四");
-		System.out.println(s1.getAge() + " " + s2.getAge());
-		System.out.println(s1.getName() + " " + s2.getName());
+		System.out.println(s1.getAge() + " " +s1.getName() );
+		System.out.println(s2.getAge() + " " + s2.getName());
 	}
 
 }

@@ -13,8 +13,8 @@ public class Client {
 //		不能这么写
 //		Component component = new ConcreteDecoratorA(new ConcreteDecoratorB(new ConcreteComponent()));
 		Component component1 = new ConcreteComponent();
-//		Component component2 = new ConcreteDecoratorA(component1);
-		Component component3 = new ConcreteDecoratorB(component1);
+		Component component2 = new ConcreteDecoratorA(component1);
+		Component component3 = new ConcreteDecoratorB(component2);
 		
 //		component1.sampleOperation();
 	}

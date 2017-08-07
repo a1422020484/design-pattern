@@ -6,6 +6,7 @@ package flyweight;
  * 核心是复用对象、共享工厂
  * 
  * 共享工厂里包含了一个list，放存储好的对象
+ * 五子棋
  * 
  */
 public class Client {
