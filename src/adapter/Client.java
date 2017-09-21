@@ -14,9 +14,9 @@ public class Client {
 		// 适配后的类
 		Target adp = new Adapter();
 		// 原生的类
-		Target adp2 = new ConcreteMethod();
+//		Target adp2 = new ConcreteMethod();
 		adp.request();
-		adp2.request();
+//		adp2.request();
 	}
 
 }
