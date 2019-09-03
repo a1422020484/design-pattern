@@ -22,10 +22,11 @@ public class ConcreteCompany extends Company {
 	}
 
 	@Override
-	public void display(int depth) {
-		System.out.println(depth + "---" + name);
+	public void display(String depth) {
+		System.out.println(depth + name);
 		for (Company c : children) {
-			c.display(depth + 2);
+			c.display(depth + "--");
+			c.lineOfDuty();
 		}
 	}
 

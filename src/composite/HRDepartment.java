@@ -1,6 +1,6 @@
 package composite;
 
-public class HRDepartment extends Company{
+public class HRDepartment extends Company {
 
 	public HRDepartment(String name) {
 		super(name);
@@ -8,18 +8,18 @@ public class HRDepartment extends Company{
 
 	@Override
 	public void add(Company c) {
-		
+
 	}
 
 	@Override
 	public void remove(Company c) {
-		
+
 	}
 
 	@Override
-	public void display(int depth) {
-		System.out.println(depth + "---" + name);
-		
+	public void display(String depth) {
+		System.out.println(depth + name);
+
 	}
 
 	@Override
